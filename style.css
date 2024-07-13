@@ -331,5 +331,9 @@ nav ul{
     flex-direction: column;
     text-align: center;
   }
+  .section1{
+    width: 100%;
+    font-size: 13px;
+  }
   
 }
