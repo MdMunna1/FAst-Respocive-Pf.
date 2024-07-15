@@ -68,11 +68,12 @@ nav li a {
 }
 .hero-1 {
   margin-left: 75px;
-  width: 460px;
+  /* width: 460px; */
 }
 
 .imgg {
-  height: 500px;
+  /* height: 500px; */
+  height: 100%;
   object-fit: cover;
 }
 .hero-1 h4 {
@@ -279,6 +280,10 @@ footer {
   footer{
     flex-direction: column;
   }
+  *{
+    margin: 0px ;
+    padding: 0px;
+  }
   .foter-1,.foter-2{
     width: 100%;
 
@@ -304,9 +309,11 @@ nav ul{
   margin-left: 10px;
   text-align: center;
 }
+
   .imgg{
     height: 400px;
     object-fit: fill;
+    width: 100%;
   }
   .hero h1{
     font-size: 10vw;
@@ -319,6 +326,10 @@ nav ul{
     padding: 10px;
     font-size: 12px;
     width: auto;
+    height: auto;
+  }
+  .section1{
+    margin-top: 20px;
   }
   .main1-div .main-last{
     flex-direction: column;
@@ -338,5 +349,7 @@ nav ul{
     width: 100%;
     font-size: 13px;
   }
-  
+  .section2{
+    width: auto;
+  }
 }
